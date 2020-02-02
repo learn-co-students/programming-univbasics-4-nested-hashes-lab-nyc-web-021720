@@ -128,7 +128,8 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-    #  programmer_hash[:dennis_ritchie][:languages][1] = "Assembly" # here i'm supposed to add "Assembly" to the array that :languages points to.
-     programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+    #  programmer_hash[:dennis_ritchie][:languages][1] = "Assembly" # hard coding if you know the index
+    #  programmer_hash[:dennis_ritchie][:languages].push("Assembly") # .push method
+     programmer_hash[:dennis_ritchie][:languages] << "Assembly" # << method
      programmer_hash
 end
